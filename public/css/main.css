@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+:root {
+  --primary: #fecf89;
+  --secondary: #d7af74;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box; 
+
+}
+
+img {
+  display: block;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--primary);
+  font-size: 16px;
+  color: #111;
+}
+
+.container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.main {
+  height: 90vh;
+  overflow-y: auto;
+  /* opacity: 0; */
+} 
+
+.brand {
+  font-weight: 900;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+  max-width: 400px;
+  border: 2px solid var(--secondary);
+}
+
+.card {
+  width: 400px;
+  max-width: 100%;
+  background-color: var(--secondary);
+  margin: 10px;
+  padding: 5px 20px 10px;
+  border-radius: 10px;
+}
+
+.card-lg {
+  width: 600px;
+  max-width: 100%;
+}
+
+span.name {
+  padding-left: 30px;
+}
+
+.loop {
+  padding-right: 1rem;
+}
+
+footer {
+  background-color: var(--secondary);
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  padding: 5px 10px 10px;
+  z-index: 100;
+}
+
+table {
+  width: 100%;
+  border-spacing: 15px;
+}
+
+tr {
+  background-color: #fff;
+}
+
+th, td {
+  padding: 1rem;
+}
+
+.px-150 {
+  width: 150px;
+}
+
+.link {
+  color: #111;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin: 1rem;
+}
+
+form {
+  width: 100%;
+}
+
+label, p.label {
+  font-size: 1.2rem;
+  display: block;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+input, select {
+  display: block;
+  width: 90%;
+  margin: 1rem auto;
+  padding: .5rem;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+
+.order {
+  display: block;
+  font-size: 1.1rem;
+  width: max-content;
+  padding: 1rem 2rem;
+  background-color: var(--primary);
+  border: 0;
+  margin: 2rem auto;
+  border-radius: 10px;
+}
+
+.msg {
+  font-size: 20px;
+  background-color: var(--secondary);
+  width: 100%;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+}
+
+input[type="checkbox"] {
+  display: block;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  margin: 1rem;
+}
+
+.choice {
+  display: flex;
+  width: max-content;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.to-show {
+  text-decoration: none;
+  color: #111;
+}
